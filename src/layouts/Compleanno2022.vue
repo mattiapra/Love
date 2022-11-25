@@ -1,5 +1,5 @@
 <script setup>
-const ready = ref(true)
+const ready = ref(false)
 
 useHead({
   title: 'Buon 21esimo compleanno amore mio',
