@@ -40,8 +40,9 @@ const showParis = ref(true)
 <template>
   <transition name="opacity" mode="out-in">
     <div v-if="showParis" centered-full @click="showParis = false">
+      <p>Buon compleanno amore mio..</p>
       <img src="/favicon.png" alt="">
-      <p>Cliccamiii</p>
+      <p text-xs>(cliccami)</p>
     </div>
     <div text="center" text-lg p-big pb="!0" v-else>
       <article>

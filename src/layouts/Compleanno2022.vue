@@ -1,8 +1,17 @@
 <script setup>
+import {Howl, Howler} from 'howler';
+
 const ready = ref(false)
 
 useHead({
   title: 'Buon 21esimo compleanno amore mio',
+})
+
+onMounted(() => {
+  const sound = new Howl({
+    src: ['/compleanno261122/bg.mp3']
+  })
+  sound.play()
 })
 </script>
 

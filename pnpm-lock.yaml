@@ -16,6 +16,7 @@ specifiers:
   cypress: ^11.1.0
   eslint: ^8.28.0
   eslint-plugin-cypress: ^2.12.1
+  howler: ^2.2.3
   https-localhost: ^4.7.1
   markdown-it-link-attributes: ^4.0.1
   markdown-it-shiki: ^0.6.1
@@ -48,6 +49,7 @@ dependencies:
   '@unocss/reset': 0.46.5
   '@vueuse/core': 9.5.0_vue@3.2.45
   '@vueuse/head': 1.0.18_vue@3.2.45
+  howler: 2.2.3
   nprogress: 0.2.0
   pinia: 2.0.25_mgnvym7yiazkylwwogi5r767ue
   vue: 3.2.45
@@ -5079,6 +5081,10 @@ packages:
     dependencies:
       lru-cache: 7.13.1
     dev: true
+
+  /howler/2.2.3:
+    resolution: {integrity: sha512-QM0FFkw0LRX1PR8pNzJVAY25JhIWvbKMBFM4gqk+QdV+kPXOhleWGCB6AiAF/goGjIHK2e/nIElplvjQwhr0jg==}
+    dev: false
 
   /hpack.js/2.1.6:
     resolution: {integrity: sha512-zJxVehUdMGIKsRaNt7apO2Gqp0BdqW5yaiGHXXmbpvxgBYVZnAql+BJb4RO5ad2MgpbZKn5G6nMnegrH1FcNYQ==}
